@@ -19,7 +19,7 @@ const Counter = () => {
 			dispatch(counterIncrement());
 		} else if (num === 0) {
 			dispatch(counterDecrement());
-		} else if (num === 2) {
+		} else if (num === 5) {
 			dispatch(counterReset());
 		}
 	};
